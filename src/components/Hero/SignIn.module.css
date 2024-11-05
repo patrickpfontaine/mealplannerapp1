@@ -44,6 +44,7 @@
     top: calc(50% - 8.5px);
     left: calc(50% - 22.5px);
     font-weight: 500;
+    pointer-events: none; /* Prevent clicks on the text */
 }
 .signinbutton {
     position: absolute;

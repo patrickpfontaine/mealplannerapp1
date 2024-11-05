@@ -45,29 +45,36 @@ const HeroSection = () => {
 
   	
   	return (
-    		<div className={styles.signIn}>
-      			<div className={styles.usernameprompt}>
-        				<div className={styles.usernamepromptChild} />
-        				<div className={styles.username}>Username</div>
-      			</div>
-      			<div className={styles.passwordprompt}>
-        				<div className={styles.usernamepromptChild} />
-        				<div className={styles.username}>Password</div>
-      			</div>
-      			<div className={styles.signinbutton}>
-        				<div className={styles.signinbuttonChild} onClick={onRectangleClick1} />
-        				<div className={styles.signIn1}>Sign in</div>
-      			</div>
-      			<div className={styles.dontHaveAnContainer}>
-        				<p className={styles.dontHaveAn}>Don’t have an account?</p>
-          					</div>
-          					<div className={styles.signupbutton}>
-            						<div className={styles.signupbuttonChild} onClick={onRectangleClick2} />
-            						<span className={styles.signUp}>Sign up</span>
-          					</div>
-          					<b className={styles.welcome}>Welcome!</b>
-          					<img className={styles.image1Icon} alt="" src={image1} />
-          					</div>);
+    	<div className={styles.signIn}>
+      		<div className={styles.usernameprompt}>
+        		<div className={styles.usernamepromptChild} />
+        			<div className={styles.username}>Username</div>
+      		</div>
+
+      		<div className={styles.passwordprompt}>
+        		<div className={styles.usernamepromptChild} />
+        			<div className={styles.username}>Password</div>
+      		</div>
+
+      		<div className={styles.signinbutton}>
+        		<div className={styles.signinbuttonChild} onClick={onRectangleClick1} />
+        			<div className={styles.signIn1}>Sign in</div>
+      		</div>
+
+      		<div className={styles.dontHaveAnContainer}>
+        		<p className={styles.dontHaveAn}>Don’t have an account?</p>
+          	</div>
+
+          	{/* Sign Up Button */}
+        	<div className={styles.signupbutton} onClick={onRectangleClick2}>
+           		<div className={styles.signupbuttonChild} />
+            	<span className={styles.signUp}>Sign up</span>
+        	</div>
+
+          	<b className={styles.welcome}>Welcome!</b>
+          	<img className={styles.image1Icon} alt="" src={image1} />
+
+        </div>);
         				};
         				
-        				export default HeroSection;
+    export default HeroSection;
