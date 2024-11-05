@@ -36,7 +36,7 @@ const SignUp = () => {
         				<div className={styles.signUp1}>Sign up</div>
       			</div>
       			<b className={styles.welcome}>Welcome!</b>
-      			<img className={styles.image1Icon} alt="" src="image 1.png" />
+      			<img className={styles.image1Icon} alt="" src="image1.png" />
       			<div className={styles.alreadyHaveAnContainer}>
         				<p className={styles.alreadyHaveAn}>Already have an account?</p>
           					</div>
