@@ -61,7 +61,7 @@ const HeroSection = () => {
             						<div className={styles.signUp}>Sign up</div>
           					</div>
           					<b className={styles.welcome}>Welcome!</b>
-          					<img className={styles.image1Icon} alt="" src="/image1.png" />
+          					<img className={styles.image1Icon} alt="" src="./image1.png" />
           					</div>);
         				};
         				
