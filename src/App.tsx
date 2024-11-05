@@ -26,6 +26,7 @@ function App() {
           {/* Define a route for HeroSection */}
           <Route path="/" element={<HeroSection />} />
           <Route path="/signup" element={<SignUp />} /> 
+          <Route path="/herosection" element={<HeroSection />} /> 
         </Routes>
       </div>
     </Router>
