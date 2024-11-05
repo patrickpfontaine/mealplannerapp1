@@ -35,7 +35,11 @@ const HeroSection = () => {
   	
 	const navigate = useNavigate(); // Initialize navigate
 
-  	const onRectangleClick = useCallback(() => {
+  	const onRectangleClick1 = useCallback(() => {
+		
+  	}, []);
+
+	  const onRectangleClick2 = useCallback(() => {
 		navigate('/signup');
   	}, [navigate]);
 
@@ -51,14 +55,14 @@ const HeroSection = () => {
         				<div className={styles.username}>Password</div>
       			</div>
       			<div className={styles.signinbutton}>
-        				<div className={styles.signinbuttonChild} onClick={onRectangleClick} />
+        				<div className={styles.signinbuttonChild} onClick={onRectangleClick1} />
         				<div className={styles.signIn1}>Sign in</div>
       			</div>
       			<div className={styles.dontHaveAnContainer}>
         				<p className={styles.dontHaveAn}>Don’t have an account?</p>
           					</div>
           					<div className={styles.signupbutton}>
-            						<div className={styles.signupbuttonChild} onClick={onRectangleClick} />
+            						<div className={styles.signupbuttonChild} onClick={onRectangleClick2} />
             						<div className={styles.signUp}>Sign up</div>
           					</div>
           					<b className={styles.welcome}>Welcome!</b>
