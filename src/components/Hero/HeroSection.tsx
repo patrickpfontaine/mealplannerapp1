@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Logo from './Logo';
 import NavigationIcon from './NavigationIcon';
 import LeftSection from './LeftSection';
@@ -24,4 +24,42 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
+*/
+import { useCallback } from 'react';
+import styles from './SignIn.module.css';
 
+
+const SignIn = () => {
+  	
+  	const onRectangleClick = useCallback(() => {
+    		// Add your code here
+  	}, []);
+  	
+  	return (
+    		<div className={styles.signIn}>
+      			<div className={styles.usernameprompt}>
+        				<div className={styles.usernamepromptChild} />
+        				<div className={styles.username}>Username</div>
+      			</div>
+      			<div className={styles.passwordprompt}>
+        				<div className={styles.usernamepromptChild} />
+        				<div className={styles.username}>Password</div>
+      			</div>
+      			<div className={styles.signinbutton}>
+        				<div className={styles.signinbuttonChild} onClick={onRectangleClick} />
+        				<div className={styles.signIn1}>Sign in</div>
+      			</div>
+      			<div className={styles.dontHaveAnContainer}>
+        				<p className={styles.dontHaveAn}>Don’t have an account?</p>
+          					</div>
+          					<div className={styles.signupbutton}>
+            						<div className={styles.signupbuttonChild} onClick={onRectangleClick} />
+            						<div className={styles.signUp}>Sign up</div>
+          					</div>
+          					<b className={styles.welcome}>Welcome!</b>
+          					<img className={styles.image1Icon} alt="" src="image 1.png" />
+          					</div>);
+        				};
+        				
+        				export default SignIn;
+        				
