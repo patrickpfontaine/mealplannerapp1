@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import './App.css';
 import HeroSection from './components/Hero/HeroSection';
 
@@ -11,8 +11,8 @@ function App() {
 }
 
 export default App;
-*/
-import React from 'react';
+
+/*import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HeroSection from './components/Hero/HeroSection';
@@ -25,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/SignUp" element={<SignUp />} />
-          {/* Add other routes here as needed */}
+        
         </Routes>
       </div>
     </Router>
@@ -33,3 +33,4 @@ function App() {
 }
 
 export default App;
+*/
