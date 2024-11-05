@@ -16,6 +16,7 @@ export default App;
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HeroSection from './components/Hero/HeroSection';
+import SignUp from './components/Hero/SignUp'; // Import your SignUp component
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           {/* Define a route for HeroSection */}
           <Route path="/" element={<HeroSection />} />
+          <Route path="/signup" element={<SignUp />} /> 
         </Routes>
       </div>
     </Router>

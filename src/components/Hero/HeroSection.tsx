@@ -26,18 +26,18 @@ const HeroSection: React.FC = () => {
 export default HeroSection;
 */
 import { useCallback } from 'react';
-//import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'
 import styles from './SignIn.module.css';
 import image1 from './image1.png';
 
 
 const HeroSection = () => {
-
-    //const navigate = useNavigate(); // Initialize navigate
   	
+	const navigate = useNavigate(); // Initialize navigate
+
   	const onRectangleClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+		navigate('/signup');
+  	}, [navigate]);
 
   	
   	return (
