@@ -63,7 +63,7 @@ const HeroSection = () => {
           					</div>
           					<div className={styles.signupbutton}>
             						<div className={styles.signupbuttonChild} onClick={onRectangleClick2} />
-            						<div className={styles.signUp}>Sign up</div>
+            						<span className={styles.signUp}>Sign up</span>
           					</div>
           					<b className={styles.welcome}>Welcome!</b>
           					<img className={styles.image1Icon} alt="" src={image1} />
