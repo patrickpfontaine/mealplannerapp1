@@ -26,21 +26,18 @@ const HeroSection: React.FC = () => {
 export default HeroSection;
 */
 import { useCallback } from 'react';
-import { useNavigate } from 'react-router-dom'; 
+//import { useNavigate } from 'react-router-dom'; 
 import styles from './SignIn.module.css';
 
 
 const SignIn = () => {
 
-    const navigate = useNavigate(); // Initialize navigate
+    //const navigate = useNavigate(); // Initialize navigate
   	
-  	const onRectangleClick1 = useCallback(() => {
+  	const onRectangleClick = useCallback(() => {
     		// Add your code here
   	}, []);
 
-    const onRectangleClick2 = useCallback(() => {
-      navigate('/SignUp');
-  }, [navigate]);
   	
   	return (
     		<div className={styles.signIn}>
@@ -53,14 +50,14 @@ const SignIn = () => {
         				<div className={styles.username}>Password</div>
       			</div>
       			<div className={styles.signinbutton}>
-        				<div className={styles.signinbuttonChild} onClick={onRectangleClick1} />
+        				<div className={styles.signinbuttonChild} onClick={onRectangleClick} />
         				<div className={styles.signIn1}>Sign in</div>
       			</div>
       			<div className={styles.dontHaveAnContainer}>
         				<p className={styles.dontHaveAn}>Don’t have an account?</p>
           					</div>
           					<div className={styles.signupbutton}>
-            						<div className={styles.signupbuttonChild} onClick={onRectangleClick2} />
+            						<div className={styles.signupbuttonChild} onClick={onRectangleClick} />
             						<div className={styles.signUp}>Sign up</div>
           					</div>
           					<b className={styles.welcome}>Welcome!</b>
