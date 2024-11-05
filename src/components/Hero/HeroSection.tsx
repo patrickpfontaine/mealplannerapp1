@@ -28,6 +28,7 @@ export default HeroSection;
 import { useCallback } from 'react';
 //import { useNavigate } from 'react-router-dom'; 
 import styles from './SignIn.module.css';
+import image1 from './image1.png';
 
 
 const HeroSection = () => {
@@ -61,7 +62,7 @@ const HeroSection = () => {
             						<div className={styles.signUp}>Sign up</div>
           					</div>
           					<b className={styles.welcome}>Welcome!</b>
-          					<img className={styles.image1Icon} alt="" src="/image1.png" />
+          					<img className={styles.image1Icon} alt="" src={image1} />
           					</div>);
         				};
         				
