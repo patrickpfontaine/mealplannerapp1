@@ -1,0 +1,138 @@
+.usernamepromptChild {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 125px);
+    border-radius: 10px;
+    background-color: #b5c4d0;
+    width: 250px;
+    height: 40px;
+}
+.username {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 114px);
+    font-weight: 500;
+}
+.usernameprompt {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: calc(50% - 125.5px);
+    width: 250px;
+    height: 40px;
+}
+.passwordprompt {
+    position: absolute;
+    top: calc(50% + 51px);
+    left: calc(50% - 125.5px);
+    width: 250px;
+    height: 40px;
+}
+.confirmpasswordprompt1 {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 125px);
+    width: 250px;
+    height: 40px;
+}
+.confirmPassword {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 115px);
+    font-weight: 500;
+}
+.confirmpasswordprompt {
+    position: absolute;
+    top: calc(50% + 101px);
+    left: calc(50% - 124.5px);
+    width: 250px;
+    height: 40px;
+}
+.signupbuttonChild {
+    position: absolute;
+    top: calc(50% - 19.5px);
+    left: calc(50% - 41.5px);
+    border-radius: 100px;
+    background-color: #1a3b5d;
+    width: 83px;
+    height: 39px;
+    cursor: pointer;
+}
+.signUp1 {
+    position: absolute;
+    top: calc(50% - 8.5px);
+    left: calc(50% - 25.5px);
+    font-weight: 500;
+}
+.signupbutton {
+    position: absolute;
+    top: calc(50% + 170px);
+    left: calc(50% - 41.5px);
+    width: 83px;
+    height: 39px;
+    color: #fff;
+}
+.welcome {
+    position: absolute;
+    top: calc(50% - 58px);
+    left: calc(50% - 58.5px);
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+}
+.image1Icon {
+    position: absolute;
+    top: calc(50% - 358px);
+    left: calc(50% - 160.5px);
+    width: 309px;
+    height: 244px;
+    object-fit: cover;
+}
+.alreadyHaveAn {
+    margin: 0;
+}
+.alreadyHaveAnContainer {
+    position: absolute;
+    top: calc(50% + 249px);
+    left: calc(50% - 81.5px);
+    font-weight: 500;
+    color: #222;
+    display: inline-block;
+    width: 173px;
+    height: 21px;
+}
+.signinbuttonChild {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 44px);
+    border-radius: 10px;
+    background-color: #90b766;
+    width: 88px;
+    height: 26px;
+    cursor: pointer;
+}
+.signIn {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 25px);
+    font-weight: 500;
+}
+.signinbutton {
+    position: absolute;
+    top: calc(50% + 283px);
+    left: calc(50% - 44.5px);
+    width: 88px;
+    height: 26px;
+    color: #222;
+}
+.signUp {
+    width: 100%;
+    position: relative;
+    background-color: #f3ede4;
+    height: 852px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #606a73;
+    font-family: Inter;
+}
+
